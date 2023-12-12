@@ -2,7 +2,7 @@
 SELECT * FROM students WHERE host_university = 'pacifico';
 
 -- to select only students who pay more than 1100 soles
-SELECT * FROM students WHERE room_price >= 1100;
+SELECT * FROM students WHERE room_price >= 2000;
 
 --to select the student who never traveled to Cusco City
 SELECT * FROM students WHERE travel_cusco = false;
