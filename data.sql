@@ -1,15 +1,15 @@
 -- inserting values to our table created
 INSERT INTO students (name,nationality,age,room_price)
-VALUES('Robert', 'British',20, 1200),
-('Leroy', 'Dutch', 24, 800),
-('Joel', 'Dutch', 20, 800),
-('Rafael', 'French', 21, 1000),
-('Luis', 'Peruvian', 19, 1000),
-('Alain', 'French', 35, 800),
-('JihJuhn', 'Korean', 18, 800),
-('Mary', 'American', 18, 1200),
-('Jules', 'French', 24, 800),
-('Sheryl', 'American', 18, 1200);
+VALUES('sowmi', 'india',20, 1200),
+('srik', 'Dutch', 24, 800),
+('sub', 'Dutch', 20, 800),
+('harsh', 'French', 21, 1000),
+('shyam', 'Peruvian', 19, 1000),
+('appu', 'French', 35, 800),
+('taatuu', 'Korean', 18, 800),
+('meemee', 'American', 18, 1200),
+('chitty', 'French', 24, 800),
+('vishnu', 'American', 18, 1200);
 
 --to verify the added values:
 SELECT * FROM students;
